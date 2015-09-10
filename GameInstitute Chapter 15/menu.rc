@@ -1,0 +1,116 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Undo",                       ID_FILE_UNDO
+        MENUITEM "E&xit",                       ID_FILE_EXIT
+    END
+    POPUP "&Primitive"
+    BEGIN
+        MENUITEM "&Line",                       ID_PRIMITIVE_LINE
+        MENUITEM "&Rectangle",                  ID_PRIMITIVE_RECTANGLE
+        MENUITEM "&Ellipse",                    ID_PRIMITIVE_ELLIPSE
+        MENUITEM "&Cube",                       ID_PRIMITIVE_CUBE
+    END
+    POPUP "P&en Color"
+    BEGIN
+        MENUITEM "&Black",                      ID_PENCOLOR_BLACK
+        MENUITEM "&White",                      ID_PENCOLOR_WHITE
+        MENUITEM "&Red",                        ID_PENCOLOR_RED
+        MENUITEM "&Green",                      ID_PENCOLOR_GREEN
+        MENUITEM "&Blue",                       ID_PENCOLOR_BLUE
+        MENUITEM "&Pink",                       ID_PENCOLOR_PINK
+    END
+    POPUP "&Brush Color"
+    BEGIN
+        MENUITEM "&Black",                      ID_BRUSHCOLOR_BLACK
+        MENUITEM "&White",                      ID_BRUSHCOLOR_WHITE
+        MENUITEM "&Red",                        ID_BRUSHCOLOR_RED
+        MENUITEM "&Green",                      ID_BRUSHCOLOR_GREEN
+        MENUITEM "&Blue",                       ID_BRUSHCOLOR_BLUE
+        MENUITEM "&Pink",                       ID_BRUSHCOLOR_PINK
+    END
+    POPUP "Pe&n Style"
+    BEGIN
+        MENUITEM "&Solid",                      ID_PENSTYLE_SOLID
+        MENUITEM "&Dotted",                     ID_PENSTYLE_DOTTED
+        MENUITEM "D&ashed",                     ID_PENSTYLE_DASHED
+        MENUITEM "Das&hdotted",                 ID_PENSTYLE_DASHDOTTED
+    END
+    POPUP "Brush &Style"
+    BEGIN
+        MENUITEM "&Solid",                      ID_BRUSHSTYLE_SOLID
+        MENUITEM "&Null",                       ID_BRUSHSTYLE_NULL
+        MENUITEM "&Diagonal",                   ID_BRUSHSTYLE_DIAGONAL
+        MENUITEM "&Cross",                      ID_BRUSHSTYLE_CROSS
+        MENUITEM "&Horizontal",                 ID_BRUSHSTYLE_HORIZONTAL
+    END
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
